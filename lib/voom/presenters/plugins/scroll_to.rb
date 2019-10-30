@@ -1,4 +1,4 @@
-require_relative 'scroll_to/action'
+load File.expand_path('./scroll_to/action.rb', __dir__)
 
 module Voom
   module Presenters
